@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Tornado - AI Charades</title>
+    <link rel="stylesheet" href="game.css">
+</head>
+
+<body>
+
+    <!-- Background Video -->
+    <div class="video-container">
+        <video autoplay loop muted>
+            <source src="https://media.istockphoto.com/id/1307188897/video/abstract-background.mp4?s=mp4-640x640-is&k=20&c=rGtv3krcuBOsbXGguBs1Ow6TIQ-O22EKItBvkgejSGo=" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <!-- Game Container -->
+    <div id="game-container">
+        <h2>AI Charades - Solve the Riddle</h2>
+        <p id="riddle">Loading riddle...</p>
+        <p id="timer">Time left: 60s</p>
+        
+        <!-- Answer Input -->
+        <input type="text" id="answer" placeholder="Enter Answer">
+        <button onclick="checkAnswer()">Submit</button>
+        <button onclick="skipRiddle()">Skip/Next</button>
+        <button onclick="previousRiddle()">Previous</button>
+        <button onclick="showHint()">Hint</button>
+
+        <p id="hint-text" class="hidden">Hint will appear here.</p>
+        <p>Score: <span id="score">0</span></p>
+        <button onclick="quitGame()" class="quit-btn">Quit Game</button>
+    </div>
+
+    <!-- JavaScript File -->
+    <script defer src="{{ url_for('static', filename='game.js') }}"></script>
+
+</body>
+</html>
