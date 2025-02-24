@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    html,body{
+    height: 100%;
+    width: 100%;
+    }
+    #page1{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(10, 8, 8);
+    position: relative;
+    }
+    #page1 #heading1 {
+    top: 20%;
+    left: 28%;
+    position: absolute;
+    }
+    #page1 #heading1 h1{
+    font-size: 66px;
+    color: rgb(16, 145, 16);
+    font-family: sans-serif;
+    }
+    #page1 #heading2 {
+    top:35%;
+    left: 20%;
+    position: absolute;
+    }
+    #page1 #heading2 h1{
+    font-size: 40px;
+    color: rgb(247, 252, 247);
+    
+    font-family: sans-serif;
+    }
+    #page1 #buttonview{
+    padding: 20px 80px ;
+    border-radius: 40%;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(18, 238, 62);
+    background-color: rgb(43, 174, 89);
+    margin-top: 27px;
+    border: none;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    border: 2px solid rgb(29, 193, 70);
+    border-radius: 20px;
+    }
+    #page1 #buttonview h3 {
+    font-size: 25px;
+    color: black;
+    }
