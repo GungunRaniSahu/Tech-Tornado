@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    html,body{
+    height: 100%;
+    width: 100%;
+    }
+    #nav{
+    height: 50px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(40, 176, 49);
+    position: relative;
+    }
+    #nav #heading {
+    top: 60%;
+    left: 2%;
+    position: absolute;
+    
+    }
+    #nav #heading h1{
+    font-size: 17px;
+    color: rgb(8, 7, 7);
+    font-family: sans-serif;
+    }
+    #nav #heading1 {
+    top: 60%;
+    left: 15%;
+    position: absolute;
+    
+    }
+    
+    #nav #heading1 h1{
+    font-size: 17px;
+    color: rgb(8, 7, 7);
+    font-family: sans-serif;
+    }
+    #nav #logo1 img{
+    height: 25px;
+    width: 30px;
+    top: 10%;
+    left: 4%;
+    position: absolute;
+    background-color: rgb(93, 200, 93);
+    border-radius: 50%;
+    }
+    #nav #logo2 img{
+    height: 25px;
+    width: 30px;
+    top: 10%;
+    left: 16%;
+    position: absolute;
+    background-color: rgb(97, 212, 97);
+    border-radius: 50%;
+    }
+    #nav #heading2 {
+    top: 10%;
+    left: 40%;
+    position: absolute;
+    }
+    #nav #heading2 h1{
+    font-size: 30px;
+    color: rgb(8, 7, 7);
+    font-family: sans-serif;
+    }
+    #nav #logo3 img{
+    height: 40px;
+    width: 80px;
+    top: 10%;
+    
+    left: 86%;
+    position: absolute;
+    background-color: rgb(97, 212, 97);
+    }
+    #nav #heading h2{
+    font-size: 25px;
+    color: rgb(8, 7, 7);
+    font-family: sans-serif;
+    }
+    #page1{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(10, 8, 8);
+    position: relative;
+    }
+    #page1 #heading1 {
+    top: 5%;
+    left: 10%;
+    position: absolute;
+    }
+    #page1 #heading1 h1{
+    font-size: 55px;
+    color: rgb(97, 212, 97);
+    font-family: sans-serif;
+    }
+    #page1 #box{
+    padding: 150px 380px ;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(2, 2, 2);
+    background-color: rgb(8, 9, 8);
+    margin-top: 27px;
+    position: absolute;
+    
+    top: 18%;
+    left: 20%;
+    border: 2px solid rgb(30, 190, 70);
+    }
+    #page1 #box #para{
+    position: absolute;
+    top: 5%;
+    left: 2%;
+    }
+    #page1 #box #para p{
+    font-size: 23px;
+    color: rgb(203, 197, 189);
+    }
+    #page1 #box #logo3 img{
+    height: 80px;
+    width: 20%;
+    top: 5%;
+    left: 70%;
+    position: absolute;
+    background-color: rgb(97, 212, 97);
+    }
+    #page1 #box #box1{
+    padding: 55px 340px ;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(2, 2, 2);
+    background-color: rgb(8, 9, 8);
+    margin-top: 27px;
+    position: absolute;
+    top: 45%;
+    left: 2%;
+    border: 2px solid rgb(210, 239, 217);
+    }
+    #page1 #box #box1 #para2{
+    position: absolute;
+    top: 5%;
+    left: 2%;
+    
+    }
+    #page1 #box #box1 #para2 p{
+    font-size: 23px;
+    color: rgb(203, 197, 189);
+    }
+    #page1 #box #box1 #logo4 img{
+    height: 80px;
+    width: 20%;
+    top: 12%;
+    left: 70%;
+    position: absolute;
+    }
+    #page1 #button3{
+    padding: 3px 60px ;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(18, 238, 62);
+    background-color: rgb(170, 157, 163);
+    margin-top: 27px;
+    border: none;
+    position: absolute;
+    top: 65%;
+    left: 35%;
+    border: 2px solid rgb(224, 240, 228);
+    }
+    #page1 #button3 h3 {
+    font-size: 20px;
+    color: black;
+    }
+    #page1 #button4{
+    padding: 3px 30px ;
+    border-radius: 30%;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(213, 58, 58);
+    background-color: rgb(243, 36, 64);
+    margin-top: 27px;
+    
+    border: none;
+    position: absolute;
+    top: 72%;
+    left: 40%;
+    border: 2px solid rgb(86, 139, 224);
+    border-radius: 20px;
+    }
+    #page1 #button4 h3 {
+    font-size: 20px;
+    color: black;
+    }
+    #page1 #heading4 {
+    top: 85%;
+    left: 40%;
+    position: absolute;
+    }
+    #page1 #heading4 h4{
+    font-size: 22px;
+    color: rgb(225, 236, 225);
+    font-family: sans-serif;
+    }
+    #page1 #button5{
+    padding: 3px 30px ;
+    border-radius: 30%;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(210, 149, 57);
+    background-color: rgb(167, 133, 49);
+    margin-top: 27px;
+    border: none;
+    position: absolute;
+    top: 80%;
+    left: 80%;
+    border: 2px solid rgb(253, 242, 237);
+    border-radius: 20px;
+    }
+    #page1 #button5 h3 {
+    
+    font-size: 20px;
+    color: black;
+    }
+    #page1 #button3{
+    padding: 3px 60px ;
+    border-radius: 20%;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(18, 238, 62);
+    background-color: rgb(170, 157, 163);
+    margin-top: 27px;
+    border: none;
+    position: absolute;
+    top: 65%;
+    left: 35%;
+    border: 2px solid rgb(224, 240, 228);
+    border-radius: 20px;
+    }
+    #page1 #button3 h3 {
+    font-size: 20px;
+    color: black;
+    }
